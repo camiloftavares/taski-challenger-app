@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taski_challenger_app/src/ds/tokens/alias/app_colors.dart';
+import 'package:taski_challenger_app/src/core/ds/tokens/alias/app_colors.dart';
 import '../globals/global_typography.dart';
 
 class AppTextStyle {

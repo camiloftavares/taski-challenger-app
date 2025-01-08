@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:taski_challenger_app/src/generated/fonts.gen.dart';
 
 class GlobalTypography {
-  static const fontFamilyPrimary = 'Urbanist';
+  static const fontFamilyPrimary = FontFamily.urbanist;
 
   static const double fontSizeSmall = 14.0;
   static const double fontSizeMedium = 16.0;
