@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:taski_challenger_app/src/core/ds/components/button/app_button.dart';
-import 'package:taski_challenger_app/src/core/ds/components/input/app_input_search.dart';
-import 'package:taski_challenger_app/src/core/ds/tokens/alias/app_colors.dart';
+import 'package:taski_challenger_app/src/config/ds/components/button/app_button.dart';
+import 'package:taski_challenger_app/src/config/ds/components/input/app_input_search.dart';
+import 'package:taski_challenger_app/src/config/ds/tokens/alias/app_colors.dart';
 
 /// Displays detailed information about a SampleItem.
 class SampleItemDetailsView extends StatelessWidget {

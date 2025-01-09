@@ -1,0 +1,17 @@
+{
+    "app_title": "Taski",
+    "welcome_title": "Welcome, \\n%s.",
+    "no_result_message": "No result found",
+    "no_task_message": "You have no task listed",
+    "create_task_label": "Create task",
+    "create_label": "Create",
+    "completed_tasks_label": "Completed Tasks",
+    "delete_tasks_label": "Delete all",
+    "todo_menu_label": "Todo",
+    "create_menu_label": "Create",
+    "search_menu_label": "Search",
+    "done_menu_label": "Done",
+    "add_task_title_label": "What's in your mind?",
+    "add_task_note_label": "Add a note",
+    "tasks_count_message": "{count, plural, =0 {Create tasks to achieve more.} =1 {You got \\n%s task to do.} other {You got \\n%s tasks to do.}}"
+}

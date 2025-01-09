@@ -1,0 +1,27 @@
+name: dev_tools
+description: "Modulo para libs de desenvolvimento."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mocktail: ^1.0.4
+  flutter_lints: ^5.0.0
+  build_runner:
+  flutter_gen_runner:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
