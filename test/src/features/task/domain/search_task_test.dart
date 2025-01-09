@@ -1,8 +1,8 @@
+import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:fpdart/fpdart.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:taski_challenger_app/src/core/errors/failure.dart';
-import 'package:taski_challenger_app/src/features/task/domain/entities/task.dart';
+import 'package:taski_challenger_app/src/features/task/domain/entities/todo_task.dart';
 import 'package:taski_challenger_app/src/features/task/domain/repository/task_repository.dart';
 import 'package:taski_challenger_app/src/features/task/domain/usecases/search_task.dart';
 
@@ -12,7 +12,7 @@ void main() {
   late TaskRepository repository;
   late SearchTask usecase;
   const query = 'taski';
-  const tasks = [Note(id: 10, title: 'title', note: '')];
+  const tasks = [TodoTask(id: '10', title: 'title', note: '')];
 
   setUp(() {
     repository = MockTaskRepository();

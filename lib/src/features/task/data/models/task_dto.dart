@@ -1,6 +1,6 @@
-import 'package:taski_challenger_app/src/features/task/domain/entities/task.dart';
+import 'package:taski_challenger_app/src/features/task/domain/entities/todo_task.dart';
 
-class TaskDto extends Task {
+class TaskDto extends TodoTask {
   const TaskDto({
     required super.id,
     required super.title, 
@@ -15,11 +15,11 @@ class TaskDto extends Task {
     );
   }
 
-  factory TaskDto.fromEntity(Task note) {
+  factory TaskDto.fromEntity(TodoTask task) {
     return TaskDto(
-      id: note.id,
-      title: note.title, 
-      note: note.note
+      id: task.id,
+      title: task.title, 
+      note: task.note
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:taski_challenger_app/src/features/task/domain/types/signatures.dart';
 
-import '../entities/task.dart';
+import '../entities/todo_task.dart';
 import '../repository/task_repository.dart';
 
 class AddTask {
@@ -10,7 +10,7 @@ class AddTask {
     required this.repository,
   });
 
-  Future<AddTaskResult> call(Task task) async {
+  Future<AddTaskResult> call(TodoTask task) async {
     return repository.addTask(task);
   }
 }

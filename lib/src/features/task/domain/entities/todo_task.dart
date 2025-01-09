@@ -1,11 +1,11 @@
 import 'package:equatable/equatable.dart';
 
-class Task extends Equatable {
+class TodoTask extends Equatable {
   final String id;
   final String title;
   final String note;
 
-  const Task({
+  const TodoTask({
     required this.id,
     required this.title,
     required this.note
